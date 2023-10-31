@@ -1,0 +1,35 @@
+{
+  "name": "@deralaxo/ink-divider",
+  "version": "1.0.0",
+  "description": "A divider component for Ink",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc --project tsconfig.demo.json && node ./demo/dist/demo/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deralaxo/ink-divider.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Dawid Harat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deralaxo/ink-divider/issues"
+  },
+  "homepage": "https://github.com/deralaxo/ink-divider#readme",
+  "dependencies": {
+    "ink": "4.4.1",
+    "react": "18.2.0",
+    "string-width": "7.0.0",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "5.0.0",
+    "@types/react": "18.2.33"
+  }
+}
